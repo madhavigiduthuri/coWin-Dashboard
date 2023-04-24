@@ -1,0 +1,55 @@
+/* Write your CSS here */
+/* Write your CSS here */
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.cowinDashboard-container {
+  background-color: #161625;
+  min-height: 100vh;
+  width: 100vw;
+}
+.dashboard-container {
+  padding: 50px;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  height: 50px;
+}
+.main-heading {
+  color: #2cc6c6;
+  margin: 10px;
+}
+.heading {
+  font-size: 20px;
+  margin: 10px 0px;
+  color: #cbd5e1;
+}
+.loader {
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0px;
+}
+.failure-image {
+  height: 300px;
+}
+.failure-page {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader-wrap {
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  align-self: center;
+}
